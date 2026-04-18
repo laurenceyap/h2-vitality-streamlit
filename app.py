@@ -1,5 +1,4 @@
 import streamlit as st
-import google.generativeai as genai
 
 # --- 1. SETTINGS & PREMIUM THEME ---
 st.set_page_config(page_title="H2 Vitality | Advanced Therapy", page_icon="💧", layout="wide")
@@ -30,7 +29,7 @@ with col1:
 
 with col2:
     st.markdown("<br>", unsafe_allow_html=True)
-    st.image("https://images.unsplash.com/photo-1576091160550-2173bdd99802?q=80&w=1200", use_container_width=True)
+    st.image("https://images.unsplash.com/photo-1576091160550-2173bdd99802?ixlib=rb-4.0.3&q=80&w=1200", use_container_width=True)
 
 # --- 3. THE 30 PATHWAYS SECTION ---
 st.write("---")
@@ -40,16 +39,16 @@ st.markdown("<p style='text-align: center; color: #a1a1a6;'>Systemic orchestrati
 p1, p2, p3 = st.columns(3)
 
 with p1:
-    st.markdown("<div class='card'><h3>Cellular Defense</h3><p>Selective Antioxidant support targeting hydroxyl radicals and peroxynitrite.</p></div>", unsafe_allow_html=True)
-    st.markdown("<div class='card'><h3>Nrf2 Activation</h3><p>Boosts your body's own antioxidant enzymes like SOD and Catalase.</p></div>", unsafe_allow_html=True)
+    st.markdown("<div class='card'><h3>🛡️ Cellular Defense</h3><p>Selective Antioxidant support targeting hydroxyl radicals and peroxynitrite.</p></div>", unsafe_allow_html=True)
+    st.markdown("<div class='card'><h3>🔥 Nrf2 Activation</h3><p>Boosts your body's own antioxidant enzymes like SOD and Catalase.</p></div>", unsafe_allow_html=True)
 
 with p2:
-    st.markdown("<div class='card'><h3>Metabolic Health</h3><p>SIRT1 Activation to promote longevity and healthy aging at a genetic level.</p></div>", unsafe_allow_html=True)
-    st.markdown("<div class='card'><h3>Mitochondrial Support</h3><p>Protects the energy-producing powerhouses of your cells.</p></div>", unsafe_allow_html=True)
+    st.markdown("<div class='card'><h3>⚡ Metabolic Health</h3><p>SIRT1 Activation to promote longevity and healthy aging at a genetic level.</p></div>", unsafe_allow_html=True)
+    st.markdown("<div class='card'><h3>🔋 Mitochondrial Support</h3><p>Protects the energy-producing powerhouses of your cells.</p></div>", unsafe_allow_html=True)
 
 with p3:
-    st.markdown("<div class='card'><h3>Neuroprotection</h3><p>Effortlessly crosses the blood-brain barrier for direct cognitive protection.</p></div>", unsafe_allow_html=True)
-    st.markdown("<div class='card'><h3>Cognitive Clarity</h3><p>Reduces neuro-inflammation for sharper focus and memory.</p></div>", unsafe_allow_html=True)
+    st.markdown("<div class='card'><h3>🧠 Neuroprotection</h3><p>Effortlessly crosses the blood-brain barrier for direct cognitive protection.</p></div>", unsafe_allow_html=True)
+    st.markdown("<div class='card'><h3>💡 Cognitive Clarity</h3><p>Reduces neuro-inflammation for sharper focus and memory.</p></div>", unsafe_allow_html=True)
 
 # --- 4. EDUCATIONAL DISCLAIMER ---
 st.divider()
