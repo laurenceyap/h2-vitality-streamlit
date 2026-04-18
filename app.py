@@ -54,13 +54,3 @@ with p3:
 # --- 4. EDUCATIONAL DISCLAIMER ---
 st.divider()
 st.caption("Educational Disclaimer: This website is for informational purposes only. Molecular hydrogen inhalation is a wellness practice and not a substitute for professional medical advice.")
-Step 2: Critical Syncing (Do this now)
-GitHub Filename: Look at your first image (image_924efb.png). The "Main file path" says streamlit_app.py. On your GitHub (image_92686e.png), your file is named app.py.
-
-Action: In your Streamlit Cloud settings, change the "Main file path" from streamlit_app.py to app.py.
-
-Requirements: Make sure your requirements.txt on GitHub contains:
-
-Plaintext
-streamlit
-google-generativeai
